@@ -17,18 +17,22 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 6
   exclude:
     archived: false
     forks: true
     projects:
-    # - repo-name
+        #- vk_announcement_bot
+        #- ACFBP
+        #- telegram-seller-bot
+        #- Arduino_shortrack
+        #- homework-bot
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -39,11 +43,11 @@ projects:
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
-  # telegram: your_username
+    telegram: bularond
   # twitter: your_username
   # unsplash: your_username
-  # vk: your_username
-  # website: http://your_website_url
+    vk: bularond
+    website: https://bularond.ru
   # youtube: your_username
 
 topics:
